@@ -1,4 +1,4 @@
-package com.letmecook.letmecook.javalib;
+package com.letmecook.letmecook.javalib.dynamicproxy;
 
 /**
  * Author by wangze, Date on 2019/11/27.
@@ -6,7 +6,9 @@ package com.letmecook.letmecook.javalib;
 
 public class BaoQiang implements IPlay {
     @Override
-    public void film() {
+    public String film() {
         System.out.println("宝强拍电影");
+        return "result--宝强拍电影";
     }
+
 }

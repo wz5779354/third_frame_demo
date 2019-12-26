@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.letmecook.letmecook.myapplication.view.MyViewGroup
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f0"
+    android:id="@+id/myViewGroup"
+    tools:context=".TouchActivity">
+<com.letmecook.letmecook.myapplication.view.MyView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:id="@+id/myView"
+    android:background="#f0f">
+</com.letmecook.letmecook.myapplication.view.MyView>
+</com.letmecook.letmecook.myapplication.view.MyViewGroup>

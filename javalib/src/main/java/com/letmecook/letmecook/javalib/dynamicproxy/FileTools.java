@@ -1,4 +1,4 @@
-package com.letmecook.letmecook.javalib;
+package com.letmecook.letmecook.javalib.dynamicproxy;
 
 import java.io.FileOutputStream;
 
