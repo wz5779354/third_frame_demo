@@ -15,19 +15,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".rxjava.RXJavaActivity" />
+        <activity android:name=".TestActivity" />
+        <activity android:name=".TouchActivity">
 
         </activity>
-        <activity android:name=".rxjava.RXJavaActivity"></activity>
-        <activity android:name=".TestActivity"></activity>
-        <activity android:name=".TouchActivity">
+        <activity android:name=".kotlin.KotlinAct" />
+        <activity android:name=".ViewTestAct">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".kotlin.KotlinAct" />
     </application>
 
 </manifest>
