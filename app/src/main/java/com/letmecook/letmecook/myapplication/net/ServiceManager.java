@@ -2,8 +2,9 @@ package com.letmecook.letmecook.myapplication.net;
 
 
 import android.os.Build;
-import android.support.annotation.RequiresApi;
 import android.util.ArrayMap;
+
+import androidx.annotation.RequiresApi;
 
 
 /**

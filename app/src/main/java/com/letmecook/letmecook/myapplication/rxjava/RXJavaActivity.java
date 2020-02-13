@@ -1,11 +1,12 @@
 package com.letmecook.letmecook.myapplication.rxjava;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 
 import com.letmecook.letmecook.myapplication.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class RXJavaActivity extends AppCompatActivity {
 

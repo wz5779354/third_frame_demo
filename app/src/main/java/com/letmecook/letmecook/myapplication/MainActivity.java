@@ -1,17 +1,17 @@
 package com.letmecook.letmecook.myapplication;
 
 import android.os.AsyncTask;
-import android.os.Build;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
+
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
+import androidx.appcompat.app.AppCompatActivity;
 import okhttp3.Cache;
 import okhttp3.Call;
 import okhttp3.Callback;
@@ -27,8 +27,14 @@ public static final String TAG = MainActivity.class.getSimpleName();
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ListView listView = findViewById(R.id.listView);
 
-
+        listView.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
+            @Override
+            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
+                return false;
+            }
+        });
     }
 
     public void testAsyncTask(){

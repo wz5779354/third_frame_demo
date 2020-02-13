@@ -1,11 +1,12 @@
 package com.letmecook.letmecook.myapplication;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class TouchActivity extends AppCompatActivity {
 

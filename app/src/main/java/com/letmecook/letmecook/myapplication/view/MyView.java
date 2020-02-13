@@ -2,14 +2,16 @@ package com.letmecook.letmecook.myapplication.view;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
+
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
 import com.letmecook.letmecook.myapplication.TouchActivity;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RequiresApi;
 
 /**
  * Author by wangze, Date on 2019/12/17.
